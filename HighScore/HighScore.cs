@@ -24,7 +24,7 @@ namespace HighScore
         {
             if(turn == true)
             {
-                playerScore = playerScore - 100;
+                playerScore = playerScore - 250;
             }
             return playerScore;
             // this method returns the score after a turn was made in the game.
@@ -34,7 +34,7 @@ namespace HighScore
         {
             if(winOrLoss == true)
             {
-                playerScore = playerScore + (1000 * arrows) + (100 * coins) + 2500;
+                playerScore = playerScore + (1000 * arrows) + (50 * coins) + 2500;
             }
             else
             {
